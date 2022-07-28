@@ -1,0 +1,537 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Sun Jul 17 14:14:50 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `makefile', line 12)
+OBJ = $(SRC:.c=.o)
+# makefile (from `makefile', line 11)
+SRC = $(wildcard D:/development/peanut/src/**/*.c) $(wildcard D:/development/peanut/src/*.c)  $(wildcard D:/development/peanut/src/**/**/*.c) $(wildcard D:/development/peanut/src/**/**/**/*.c)
+# makefile
+MAKEFLAGS = Rrqp
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automat 
+ic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := d:/development/peanut
+# default
+SHELL := sh.exe
+# makefile (from `makefile', line 13)
+BIN = bin
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from `makefile', line 7)
+CFLAGS = -std=c11 -MD -g -Wall -Wextra -Wpedantic -Wstrict-aliasing -Wno-visibility -Wno-pointer-arith -Wno-newline-eof -Wno-unused-parameter -Wno-gnu-statement-expression -Wno-static-in-inline -Wno-gnu-compound-literal-initializer -Wno-gnu-zero-variadic-macro-arguments -Wno-missing-braces  -Wno-deprecated-declarations -D_DEBUG -D_CRT_SECURE_NO_WARNINGS -ID:/lib/cglm/include -ID:/lib/glad/include -ID:/lib/glfw/include -ID:/lib/stb -fbracket-depth=1024
+# environment
+ONEDRIVE = C:\Users\Satvik\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+TMP = C:\Users\Satvik\AppData\Local\Temp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = C:\Users\Satvik\AppData\Local\Programs\Microsoft VS Code
+# environment
+PATH = C:\VulkanSDK\1.2.189.2\Bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;D:\4coder;C:\Program Files\dotnet\;C:\Users\Satvik\AppData\Local\Programs\Hyper;C:\Program Files\LLVM\bin;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE;C:\Program Files\CMake\bin;C:\Program Files\nodejs\;C:\Users\Satvik\Apps\go-ipfs_v0.10.0\go-ipfs;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\AmazonBots\chromedriver.exe;C:\Program Files (x86)\Calibre2\;D:\mingw64\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build;D:\nvim-win64\bin;D:\ctags58;C:\Users\Satvik\.cargo\bin;C:\Users\Satvik\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Satvik\AppData\Local\Programs\Python\Python310\;C:\Users\Satvik\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Satvik\AppData\Local\Programs\Python\Python39\;C:\Users\Satvik\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Satvik\scoop\shims;C:\Users\Satvik\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE;C:\Users\Satvik\AppData\Local\Programs\Hyper\resources\bin;C:\Users\Satvik\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE;C:\Users\Satvik\AppData\Roaming\npm;C:\Program Files\IPFS Desktop\resources\app.asar.unpacked\src\ipfs-on-path\scripts\bin-win;D:\Python39;D:\Python39\Scripts;C:\Users\Satvik\AppData\Local\Programs\Python\Python38\;C:\Users\Satvik\AppData\Local\Programs\Python\Python10\Scripts;C:\Users\Satvik\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\Satvik\AppData\Local\Programs\Python\Python10\;C:\Users\Satvik\AppData\Local\Programs\MiKTeX\miktex\bin\x64\
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\Satvik
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `makefile', line 8)
+LDFLAGS = D:/lib/glad/src/glad.o D:/lib/cglm/build/Release/cglm.lib D:/lib/glfw/lib-vc2022/glfw3dll.lib
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# environment
+VK_SDK_PATH = C:\VulkanSDK\1.2.189.2
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11500_FUOWBNXHDBHXOFSD
+# environment
+COMPUTERNAME = DESKTOP-VMG0UV3
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = Satvik
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Satvik\AppData\Roaming\Code\CachedData\b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMO 
+NPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-VMG0UV3
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-VMG0UV3
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from `makefile', line 1)
+CC = clang
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := all
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\Satvik\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\8b7fe0e510d621bb0543ad3ffe7ebe6b-1.69.1-main-sock
+# environment
+HOMEPATH = \User 
+s\Satvik
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\Satvik\AppData\Roaming
+# environment
+TEMP = C:\Users\Satvik\AppData\Local\Temp
+# environment
+AMDRMPATH = C:\Program Files\AMD\RyzenMaster\
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 7100
+# environment
+MAKELEVEL := 0
+# environment
+VULKAN_SDK = C:\VulkanSDK\1.2.189.2
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+VSCODE_PID = 11500
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-VMG0UV3
+# variable set hash-table stats:
+#  
+Load=90/1024=9%, Rehash=0, Collisions=11/129=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# D:/development/peanut/src/util/aabb.h (key D:/development/peanut/src/util/aabb.h, mtime 1656636329): could not be opened.
+# D:/development/peanut/src/util/util.h (key D:/development/peanut/src/util/util.h, mtime 1656903790): could not be opened.
+# D:/development/peanut/src/world/world.c (key D:/development/peanut/src/world/world.c, mtime 1657504961): could not be opened.
+# D:/development/peanut/src/util/color.h (key D:/development/peanut/src/util/color.h, mtime 1656725582): could not be opened.
+# C:\Users\Satvik\AppData\Local\Programs\Hyper (key C:/Users/Satvik/AppData/Local/Programs/Hyper, mtime 1632474216): 22 files, no impossibilities.
+# C:\Program Files\LLVM\bin (key C:/Program Files/LLVM/bin, mtime 1633217829): 109 files, no impossibilities.
+# D:/development/peanut/src/gfx/renderer.c (key D:/development/peanut/src/gfx/renderer.c, mtime 1657795880): could not be ope 
+ned.
+# D:/development/peanut/src/main.c (key D:/development/peanut/src/main.c, mtime 1657795827): could not be opened.
+# D:/development/peanut/src/world/sky.h (key D:/development/peanut/src/world/sky.h, mtime 1656816609): could not be opened.
+# C:\Users\Satvik\AppData\Local\Programs\MiKTeX\miktex\bin\x64\ (key C:/Users/Satvik/AppData/Local/Programs/MiKTeX/miktex/bin/x64/, mtime 1646533469): 711 files, no impossibilities.
+# C:\Users\Satvik\.cargo\bin (key C:/Users/Satvik/.cargo/bin, mtime 1657947243): 15 files, no impossibilities.
+# C:\Users\Satvik\AppData\Local\Programs\Hyper\resources\bin (key C:/Users/Satvik/AppData/Local/Programs/Hyper/resources/bin, mtime 1631279010): 6 files, no impossibilities.
+# C:\Users\Satvik\Apps\go-ipfs_v0.10.0\go-ipfs (key C:/Users/Satvik/Apps/go-ipfs_v0.10.0/go-ipfs, mtime 1637968435): 8 files, no impossibilities.
+# C:\Program Files\IPFS Desktop\resources\app.asar.unpacked\src\ipfs-on-path\scripts\bin-win (key C:/Program Files/IPFS Desktop/resources/app.asar.unpacked/src/ipfs-on- 
+path/scripts/bin-win, mtime 1633449014): 3 files, no impossibilities.
+# D:/development/peanut/src/gfx/gfx.h (key D:/development/peanut/src/gfx/gfx.h, mtime 1656568466): could not be opened.
+# C:\Users\Satvik\scoop\shims (key C:/Users/Satvik/scoop/shims, mtime 1633068893): 11 files, no impossibilities.
+# C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE: could not be stat'd.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 16308509 
+36): 30 files, no impossibilities.
+# D:/development/peanut/src/util/camera.h (key D:/development/peanut/src/util/camera.h, mtime 1656723298): could not be opened.
+# C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1657721307): 170 files, no impossibilities.
+# . (key d:/development/peanut, mtime 1657795552): 11 files, no impossibilities.
+# D:/development/peanut/src/gfx (key D:/development/peanut/src/gfx, mtime 1657795880): 15 files, no impossibilities.
+# C:\Users\Satvik\AppData\Local\Programs\Python\Python39\ (key C:/Users/Satvik/AppData/Local/Programs/Python/Python39/, mtime 1646531470): 4 files, no impossibilities.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1637821909): 13 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1641698773): 10 files, no impossibilities.
+# D:/development/peanut/src/defines.h (key D:/development/peanut/src/defines.h, mtime 1656653803): could not be o 
+pened.
+# C:\Users\Satvik\AppData\Local\Programs\Python\Python39\Scripts\ (key C:/Users/Satvik/AppData/Local/Programs/Python/Python39/Scripts/, mtime 1643870873): 11 files, no impossibilities.
+# D:/development/peanut/src/world/block.c (key D:/development/peanut/src/world/block.c, mtime 1657867263): could not be opened.
+# D:\ctags58 (key D:/ctags58, mtime 1657787848): 104 files, no impossibilities.
+# D:/development/peanut/src/world/chunkmesh.c (key D:/development/peanut/src/world/chunkmesh.c, mtime 1656994740): could not be opened.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1654069211): 8 files, no impossibilities.
+# C:\Users\Satvik\AppData\Local\Programs\Python\Python38\ (key C:/Users/Satvik/AppData/Local/Programs/Python/Python38/, mtime 1646531409): 4 files, no impossibilities.
+# D:/development/peanut/src/gfx/shader.h (key D:/development/peanut/src/gfx/shader.h, mtime 1656992351): could not be opened.
+# C:\Users\Satvik\AppData\Local\Programs\Python\Python38\Scripts (key C:/Users/Satvik/Ap 
+pData/Local/Programs/Python/Python38/Scripts, mtime 1638761600): 11 files, no impossibilities.
+# D:/development/peanut/src/world/chunk.c (key D:/development/peanut/src/world/chunk.c, mtime 1656912072): could not be opened.
+# D:\4coder (key D:/4coder, mtime 1653299839): 18 files, no impossibilities.
+# D:/development/peanut/src/util/time.h (key D:/development/peanut/src/util/time.h, mtime 1656565375): could not be opened.
+# D:/development/peanut/src/gfx/texture.h (key D:/development/peanut/src/gfx/texture.h, mtime 1656826882): could not be opened.
+# D:/development/peanut/src/ui/ui.h (key D:/development/peanut/src/ui/ui.h, mtime 1656653996): could not be opened.
+# D:/development/peanut/src/util/color.c (key D:/development/peanut/src/util/color.c, mtime 1657795824): could not be opened.
+# C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1630878689): 5 files, no impossibilities.
+# C:\Pr 
+ogram Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build (key C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Auxiliary/Build, mtime 1653195601): 12 files, no impossibilities.
+# D:\mingw64\bin (key D:/mingw64/bin, mtime 1526160538): 58 files, no impossibilities.
+# D:/development/peanut/src/world/sky.c (key D:/development/peanut/src/world/sky.c, mtime 1656744285): could not be opened.
+# D:/development/peanut/src/ui (key D:/development/peanut/src/ui, mtime 1657795890): 4 files, no impossibilities.
+# D:/development/peanut/src/world/world.h (key D:/development/peanut/src/world/world.h, mtime 1656910534): could not be opened.
+# D:/development/peanut/src/util/ivec2.h (key D:/development/peanut/src/util/ivec2.h, mtime 1615291411): could not be opened.
+# C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, mtime 1630882775): 4 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1657721306): 115 files, no impossibilities.
+# D:/development/peanut/src/gfx/vbo.h (key D:/development/peanut/src/gfx/vbo.h, mtime 1656723676): could not be opened.
+# D:/development/peanut/src/gfx/vao.h (key D:/development/peanut/src/gfx/vao.h, mtime 1656653473): could not be opened.
+# D:/development/peanut/src/util/ivec2s.h (key D:/development/peanut/src/util/ivec2s.h, mtime 1656903900): could not be opened.
+# D:\AmazonBots\chromedriver.exe: could not be stat'd.
+# D:\Python39: could not be stat'd.
+# C:\Users\Satvik\AppData\Local\Microsoft\WindowsApps  
+(key C:/Users/Satvik/AppData/Local/Microsoft/WindowsApps, mtime 1657855336): 21 files, no impossibilities.
+# C:\VulkanSDK\1.2.189.2\Bin (key C:/VulkanSDK/1.2.189.2/Bin, mtime 1633217954): 47 files, no impossibilities.
+# D:/development/peanut/src/world (key D:/development/peanut/src/world, mtime 1657867263): 12 files, no impossibilities.
+# D:/development/peanut/src (key D:/development/peanut/src, mtime 1657795827): 9 files, no impossibilities.
+# C:\Program Files (x86)\Calibre2\ (key C:/Program Files (x86)/Calibre2/, mtime 1653206100): 24 files, no impossibilities.
+# D:/development/peanut/src/gfx/renderer.h (key D:/development/peanut/src/gfx/renderer.h, mtime 1657505271): could not be opened.
+# D:/development/peanut/src/util/ivec3s.h (key D:/development/peanut/src/util/ivec3s.h, mtime 1656903934): could not be opened.
+# D:/development/peanut/src/world/chunk.h (key D:/development/peanut/src/world/chunk.h, mtime 1656901214): could not be opened.
+# D:/development/peanut/src/util/fmath.h (key D:/development/peanut/ 
+src/util/fmath.h, mtime 1656730267): could not be opened.
+# C:\Users\Satvik\AppData\Local\Programs\Python\Python38\Scripts\ (key C:/Users/Satvik/AppData/Local/Programs/Python/Python38/Scripts/, mtime 1638761600): 11 files, no impossibilities.
+# D:/development/peanut/src/gfx/shader.c (key D:/development/peanut/src/gfx/shader.c, mtime 1656906281): could not be opened.
+# D:\nvim-win64\bin (key D:/nvim-win64/bin, mtime 1657787025): 32 files, no impossibilities.
+# D:/development/peanut/src/state.h (key D:/development/peanut/src/state.h, mtime 1656993078): could not be opened.
+# C:\Users\Satvik\AppData\Local\Programs\Python\Python310\ (key C:/Users/Satvik/AppData/Local/Programs/Python/Python310/, mtime 1646531813): 21 files, no impossibilities.
+# D:/development/peanut/src/util/ivec3.h (key D:/development/peanut/src/util/ivec3.h, mtime 1615291411): could not be opened.
+# C:\Users\Satvik\AppData\Local\Programs\Python\Python10\: could not be stat'd.
+# D:/development/peanut/src/ui/ui.c (key D:/development/peanut/src/ui 
+/ui.c, mtime 1657795890): could not be opened.
+# D:/development/peanut/src/gfx/texture.c (key D:/development/peanut/src/gfx/texture.c, mtime 1656827190): could not be opened.
+# D:/development/peanut/src/world/block.h (key D:/development/peanut/src/world/block.h, mtime 1656833053): could not be opened.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1630888850): 8 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1657774643): 3069 files, no impossibilities.
+# D:/development/peanut/src/util (key D:/development/peanut/src/util, mtime 1657795849): 14 files, no impossibilities.
+# D:\Python39\Scripts: could not be stat'd.
+# C:\Users\Satvik\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Satvik/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1657677845): 4 files, no impossibilities.
+# D:/development/peanut/src/world/chunkmesh.h (key D:/development/peanut/src/world/chunkmesh.h, mtime 1656907589): could not be opened.
+# D:/development/peanut/src/util/camera.c (key D:/development/peanut/src/util/camera.c, mtime 1657795849): could not be opened.
+# C:\Program Files\CMake\bin (key C:/Program Files/CMake/bin, mtime 1634853723): 7 files, no impossibilities.
+# D:/development/peanut/src/gfx/vbo.c (key D:/development/peanut/src/gfx/vbo.c, mtime 1656653820): could not be opened.
+# C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE: could not be stat'd.
+# D:/development/peanut/src/gfx/window.h (key D:/development/peanut/src/gfx/window.h, mtime 165 
+6912494): could not be opened.
+# C:\Users\Satvik\AppData\Local\Programs\Python\Python10\Scripts: could not be stat'd.
+# C:\Users\Satvik\AppData\Roaming\npm (key C:/Users/Satvik/AppData/Roaming/npm, mtime 1650097442): 15 files, no impossibilities.
+# D:/development/peanut/src/gfx/window.c (key D:/development/peanut/src/gfx/window.c, mtime 1657505290): could not be opened.
+# C:\Users\Satvik\AppData\Local\Programs\Python\Python310\Scripts\ (key C:/Users/Satvik/AppData/Local/Programs/Python/Python310/Scripts/, m 
+time 1646533513): 50 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1630878947): 5 files, no impossibilities.
+# D:/development/peanut/src/gfx/vao.c (key D:/development/peanut/src/gfx/vao.c, mtime 1656653632): could not be opened.
+# C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1641173393): 5 files, no impossibilities.
+
+# 4846 files, no impossibilities in 92 directories.
+
+# Implicit Rules
+
+%.o: %.c
+#  commands to execute (from `makefile', line 35):
+	@echo $<...
+	@$(CC) -o $@ -c $< $(CFLAGS)
+	
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+D:/development/peanut/src/util/color.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+D:/development/peanut/src/gfx/shader.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: dirs g 
+ame clean
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+# Not a target:
+D:/development/peanut/src/gfx/vbo.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all clean
+#  Implicit rule search has not been done.
+#  Mo 
+dification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+D:/development/peanut/src/world/chunkmesh.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+D:/development/peanut/src/world/chunk.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File 
+ has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-03 15:46:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+dirs:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := dirs
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+#  
+automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/13=8%
+#  commands to execute (from `makefile', line 20):
+	@echo Creating directories...
+	@IF exist "$(BIN)/" (@echo Directory "$(BIN)" Already Exists!) else (mkdir $(BIN))
+	@echo Done.
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+D:/development/peanut/src/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 25):
+	@echo $(OBJ)
+	@echo Running game...
+	@$(BIN)/game.exe
+	
+
+# Not a target:
+D:/development/peanut/src/gfx/renderer.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been upd 
+ated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 39):
+	@echo Deleting object files...
+	@del /s src\*.o
+	@del /s src\*.d
+	@echo Done.
+	
+
+# Not a target:
+D:/development/peanut/src/gfx/window.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+game: D:/development/peanut/src/gfx/renderer.o D:/development/peanut/src/gfx/shader.o D:/development/peanut/src/gfx/texture.o D:/development/peanut/src/gfx/vao.o D:/development/peanut/src/gfx/vbo.o D:/development/peanut/src/gfx/window.o D:/development/peanut/src/ui/ui.o D:/development/peanut/src/util/camera.o D:/development/peanut/src/util/color.o D:/development/peanut/src/world/block.o D:/development/peanut/src/world/chunk.o D:/development/peanut/src/world/chunkmesh.o D:/development/peanut/src/world/sky.o D:/development/peanut/src/world/world.o D:/development/peanut/src/main.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 30):
+	@echo Linking game...
+	@$(CC) -o $(BIN)/game.exe -g $^ $(LDFLAGS)
+	@echo Done.
+	
+
+# Not a target:
+D:/development/peanut/src/world/sky.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+D:/development/peanut/src/util/camera.o:
+#  Implicit rule search has not be 
+en done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+D:/development/peanut/src/ui/ui.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+D:/development/peanut/src/gfx/texture.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+D:/development/peanut/src/gfx/vao.o:
+#  Implicit rule search has not been done.
+#  Modificat 
+ion time never checked.
+#  File has not been updated.
+
+# Not a target:
+D:/development/peanut/src/world/world.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+D:/development/peanut/src/world/block.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=24/1024=2%, Rehash=0, Collisions=0/58=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+ 
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun Jul 17 14:14:50 2022
+
+ 
