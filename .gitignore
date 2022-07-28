@@ -1,3 +1,7 @@
-tags/
+# files
+tags
 /compile_flags.txt
+
+# directories
 bin/
+.vscode/
